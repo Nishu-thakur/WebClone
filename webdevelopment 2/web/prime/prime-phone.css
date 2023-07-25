@@ -1,0 +1,725 @@
+@media (max-width:1860px) {
+    body{
+        
+        border:2px solid white;
+    }
+    
+   
+    .container-text{
+        
+         width: 50%;
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+        justify-content: flex-start;
+        gap:2rem;
+     }
+     p{
+        color:#aaaaaa;
+        font-size: 1rem;
+    }
+}
+@media(max-width:1530px){
+    h2{
+        font-size :1.7rem;
+        font-weight: 700;
+        color:white;
+       }
+       h1{
+           font-size: 3rem;
+           font-weight: 800;
+           color:white;
+       }
+       .button{
+        width:40%;
+        height: 10%;
+        border:none;
+        color: #ffffffd0;
+        border-radius: 0.5rem;
+        background: #0f79af;
+        font-size: 1.5rem;
+    }
+    .profile{
+        text-align: center;
+        width:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 55px;
+        
+        background: #0f111123;
+        color:#aaaaaa;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width:1240px) {
+    h2{
+        font-size :1.5rem;
+        font-weight: 700;
+        color:white;
+       }
+       h1{
+           font-size: 2.6rem;
+           font-weight: 800;
+           color:white;
+       }
+       .button{
+        width:40%;
+        height: 10%;
+        border:none;
+        color: #ffffffd0;
+        border-radius: 0.5rem;
+        background: #0f79af;
+        font-size: 1.25rem;
+    }
+    .profile{
+        text-align: center;
+        width:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 55px;
+        
+        background: #0f111123;
+        color:#aaaaaa;
+        font-size: 1.1rem;
+    }
+    .focus-image img{
+        width:100%;
+        height: 70%;
+    }
+    .text p{
+    font-size:0.7rem;
+        
+    }
+    .text h3{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:870px) {
+    p{
+        font-size:0.8rem;
+        font-weight: 400;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    .text p{
+        font-size:0.5rem;
+            font-weight: 500;
+        }
+        .text h3{
+            font-size: 0.6rem;
+            font-weight: 500;
+        }
+        .button{
+            width:50%;
+            height: 10%;
+            border:none;
+            color: #ffffffd0;
+            border-radius: 0.5rem;
+            background: #0f79af;
+            font-size: 1.1rem;
+        }
+        .container{
+            width: 100%;
+        }
+        .text{
+    
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .focus-image img{
+            width:100%;
+            height: 60%;
+        }
+        .next-container{
+            display: flex;
+            color: #ffffff;
+           
+            
+            flex-direction: column;
+            justify-content: flex-start;
+            background: linear-gradient(to right,black,rgba(212, 211, 211, 0.048),transparent);
+            align-items: flex-start;
+            gap:3rem;
+            width:60%;
+            height: 100%;;
+        }
+}
+@media (max-width:520px){
+    p{
+        font-size:0.6rem;
+        font-weight: 400;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 0.9rem;
+    }
+    .text p{
+        font-size:0.6rem;
+            font-weight: 500;
+        }
+        .text h3{
+            font-size: 0.6rem;
+            font-weight: 500;
+        }
+        .button{
+            width:50%;
+            height: 10%;
+            border:none;
+            color: #ffffffd0;
+            border-radius: 0.5rem;
+            background: #0f79af;
+            font-size: 0.9rem;
+        }
+        .container{
+            width: 100%;
+        }
+        .text{
+    
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .focus-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .focus-image img{
+            width:100%;
+            height: 50%;
+        }
+        .next-container{
+            display: flex;
+            color: #ffffff;
+           
+           
+            flex-direction: column;
+            justify-content: flex-start;
+            background: linear-gradient(to right,black,rgba(212, 211, 211, 0.048),transparent);
+            align-items: flex-start;
+            gap:3rem;
+            width:60%;
+            height: 100%;;
+        }
+        .text img{
+            width:100px;
+            height: 50px;
+        }
+        .nav-parts{
+            color:#aaaaaa;
+            font-size: 1rem;
+        }
+        .profile{
+            text-align: center;
+            width:35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            
+            background: #0f111123;
+            color:#aaaaaa;
+            font-size: 0.8rem;
+        }
+        .container-picture{
+            
+            height: 50%;
+            width: 50%;
+        
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .container-picture .image{
+            
+            
+             width:30%;
+         }
+         .variety{
+            height: 500px;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            width:100%;
+        }
+}
+@media (max-width:350px) {
+    p{
+        font-size:0.5rem;
+        margin-left: 3px;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 0.5rem;
+    }
+    .text p{
+        font-size:0.4rem;
+            font-weight: 500;
+        }
+        .text h3{
+            font-size: 0.4rem;
+            font-weight: 500;
+        }
+        .button{
+            width:50%;
+            height: 10%;
+            border:none;
+            color: #ffffffd0;
+            border-radius: 0.5rem;
+            background: #0f79af;
+            font-size: 0.7rem;
+        }
+        .container{
+            width: 100%;
+        }
+        .text{
+    
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .focus-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .focus-image img{
+            width:100%;
+            height: 50%;
+        }
+        .next-container{
+            display: flex;
+            color: #ffffff;
+           
+            
+            flex-direction: column;
+            justify-content: flex-start;
+            background: linear-gradient(to right,black,rgba(212, 211, 211, 0.048),transparent);
+            align-items: flex-start;
+            gap:3rem;
+            width:60%;
+            height: 100%;;
+        }
+        .text img{
+            width:70px;
+            height: 30px;
+            
+        }
+        .nav-parts{
+            color:#aaaaaa;
+            font-size: 0.6rem;
+        }
+        .profile{
+            text-align: center;
+            width:30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 35px;
+            
+            background: #0f111123;
+            color:#aaaaaa;
+            font-size: 0.6rem;
+        }
+        .container-picture{
+         
+            height: 50%;
+            width: 50%;
+        
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .container-picture .image{
+            
+            
+             width:30%;
+         }
+         .variety{
+            height: 300px;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            width:100%;
+        }
+        .nav-next{
+   
+            width: 100%;
+            height: 300px;
+            display: flex;
+            margin-top: 3rem;
+           align-items: center;
+           background: url(image/samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg),linear-gradient(to bottom,black,white);
+           opacity: 0.5;
+           
+           background-size: cover;
+           background-position: center;
+          
+        }
+        .left{
+            background: url(image/background1.jpg);
+            background-size:cover ;
+            background-position: center;
+            display: flex;
+            justify-content: flex-end;
+            width:100%;
+            
+        }
+        .next-container{
+            display: flex;
+            gap:1rem;
+        }
+        .left-con{
+            display: flex;
+            gap:1rem;
+         }
+         .focus{
+            width: 100%;
+            height: 400px;
+           margin-top: 1rem;
+           display: flex;
+           justify-content: center;
+            border-top:10px solid rgba(255, 255, 255, 0.205);
+            
+         }   
+
+}
+@media (max-width:280px) {
+    p{
+        font-size:0.56rem;
+        margin-left: 3px;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 0.7rem;
+    }
+    .text p{
+        font-size:0.4rem;
+            font-weight: 500;
+        }
+        .text h3{
+            font-size: 0.4rem;
+            font-weight: 500;
+        }
+        .button{
+            width:60%;
+            height: 10%;
+            border:none;
+            color: #ffffffd0;
+            border-radius: 0.5rem;
+            background: #0f79af;
+            font-size: 0.7rem;
+        }
+        .container{
+            width: 100%;
+        }
+        .text{
+    
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .focus-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .focus-image img{
+            width:100%;
+            height: 35%;
+        }
+        .next-container{
+            display: flex;
+            color: #ffffff;
+           
+           
+            flex-direction: column;
+            justify-content: flex-start;
+            background: linear-gradient(to right,black,rgba(212, 211, 211, 0.048),transparent);
+            align-items: flex-start;
+            gap:3rem;
+            width:60%;
+            height: 100%;;
+        }
+        .text img{
+            width:70px;
+            height: 30px;
+            
+        }
+        .nav-parts{
+            color:#aaaaaa;
+            font-size: 0.6rem;
+        }
+        .profile{
+            text-align: center;
+            width:30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            height: 35px;
+            display: none;
+            background: #0f111123;
+            color:#aaaaaa;
+            font-size: 0.6rem;
+        }
+        .container-picture{
+           
+            height: 50%;
+            width: 50%;
+        
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .container-picture .image{
+            
+           
+             width:30%;
+         }
+         .variety{
+            height: 300px;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            width:100%;
+        }
+        .nav-next{
+   
+            width: 100%;
+            height: 300px;
+            display: flex;
+            margin-top: 3rem;
+           align-items: center;
+           background: url(image/samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg),linear-gradient(to bottom,black,white);
+           opacity: 0.5;
+         
+           background-size: cover;
+           background-position: center;
+          
+        }
+        .left{
+            background: url(image/background1.jpg);
+            background-size:cover ;
+            background-position: center;
+            display: flex;
+            justify-content: flex-end;
+            width:100%;
+            
+        }
+        .next-container{
+            display: flex;
+            gap:1rem;
+        }
+        .left-con{
+            display: flex;
+            gap:1rem;
+         }
+         .focus{
+            width: 100%;
+            height: 400px;
+           margin-top: 1rem;
+           display: flex;
+           justify-content: center;
+            border-top:10px solid rgba(255, 255, 255, 0.205);
+            
+         } 
+}
+@media (max-width:240px){
+    p{
+        font-size:0.46rem;
+        margin-left: 3px;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 0.9rem;
+    }
+    h2{
+        font-size: 0.6rem;
+    }
+    .text p{
+        font-size:0.35rem;
+            font-weight: 500;
+        }
+        .text h3{
+            font-size: 0.36rem;
+            font-weight: 500;
+        }
+        .button{
+            width:60%;
+            height: 10%;
+            border:none;
+            color: #ffffffd0;
+            border-radius: 0.5rem;
+            background: #0f79af;
+            font-size: 0.5rem;
+        }
+        .container{
+            width: 100%;
+        }
+        .text{
+    
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+            justify-content: center;
+            align-items: center;
+            border:2px solid red;
+        }
+        .focus-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .focus-image img{
+            width:100%;
+            height: 35%;
+        }
+        .next-container{
+            display: flex;
+            color: #ffffff;
+           
+            border:2px solid red;
+            flex-direction: column;
+            justify-content: flex-start;
+            background: linear-gradient(to right,black,rgba(212, 211, 211, 0.048),transparent);
+            align-items: flex-start;
+            gap:3rem;
+            width:60%;
+            height: 100%;;
+        }
+        .text img{
+            width:70px;
+            height: 30px;
+            border:2px solid red;
+        }
+        .nav-parts{
+            color:#aaaaaa;
+            font-size: 0.6rem;
+        }
+        .profile{
+            text-align: center;
+            width:30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 35px;
+            display: none;
+            background: #0f111123;
+            color:#aaaaaa;
+            font-size: 0.6rem;
+        }
+        .container-picture{
+            border:2px solid green;
+            height: 50%;
+            width: 80%;
+        
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .container-picture .image{
+            
+            border:2px solid green;
+             width:30%;
+         }
+         .variety{
+            height: 300px;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            width:100%;
+        }
+        .nav-next{
+   
+            width: 100%;
+            height: 300px;
+            display: flex;
+            margin-top: 3rem;
+           align-items: center;
+           background: url(image/samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg),linear-gradient(to bottom,black,white);
+           opacity: 0.5;
+          
+           background-size: cover;
+           background-position: center;
+          
+        }
+        .left{
+            background: url(image/background1.jpg);
+            background-size:cover ;
+            background-position: center;
+            display: flex;
+            justify-content: flex-end;
+            width:100%;
+           
+        }
+        .next-container{
+            display: flex;
+            gap:1rem;
+        }
+        .left-con{
+            display: flex;
+            gap:1rem;
+         }
+         .focus{
+            width: 100%;
+            height: 400px;
+           margin-top: 1rem;
+           display: flex;
+           justify-content: center;
+            border-top:10px solid rgba(255, 255, 255, 0.205);
+            border:2px solid blue;
+         }
+}
