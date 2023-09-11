@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="linkedin.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="Linkedin.html" class="logo"><img src="image/logo.png" alt=""></a>
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><i class="fa-solid fa-house fa-xl"></i><span>Home</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-user fa-xl"></i><span>My Networks</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-bag-shopping fa-lg"></i><span>Jobs</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-message fa-xl"></i><span>Messaging</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-bell fa-xl"></i><span>Notification</span></a></li>
+
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="image/images (4).jpg" class="nav-profile-img" alt="" onclick="toggleMenu()">
+            </div>
+        </div>
+
+
+
+        <!-- .........................................profile drop down menu---- -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="image/images (4).jpg" alt="">
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="image/setting.png" alt="">
+                    <p>Setting and Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="image/help.png" alt="">
+                    <p>Help and Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="image/message.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="image/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+              
+            </div>
+        </div>
+    </nav>
+
+
+    <!--------------------------------------end navbar------------------------------------->
+
+    <div class="container">
+        <!-- ---------------------------------left sidebar---------------------------------- -->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="image/images (3).jpg" style="width:100%" alt="">
+                <div class="sidebar-profile-info">
+                    <img src="image/images (4).jpg" alt="">
+                    <h1>Rayan walton</h1>
+                    <h3>Web Deveolper at Microsoft</h3>
+                    <ul>
+                        <li>Your Profile views <span>52</span></li>
+                        <li>Your post Views<span>812</span></li>
+                        <li>Your connections <span>205</span></li>
+
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="image/items.png" alt="">My items</a>
+                    <a href="#"><img src="image/premium.jpg" alt="">Try Premium</a>
+
+                </div>
+            </div>
+
+            <div class="sidebar-activity " id="sideBarActivity">
+                <h3>RECENT</h3>
+                <a href="#"><i class="fa-solid fa-wand-magic-sparkles fa-lg"></i>Web Development</a>
+                <a href="#"><i class="fa-solid fa-wand-magic-sparkles fa-lg"></i>User Interface</a>
+                <a href="#"><i class="fa-solid fa-wand-magic-sparkles fa-lg"></i>Learn Online</a>
+                <a href="#"><i class="fa-solid fa-wand-magic-sparkles fa-lg"></i>Online learning</a>
+                <a href="#"><i class="fa-solid fa-wand-magic-sparkles fa-lg"></i>Group Learning</a>
+                <a href="#"><i class="fa-solid fa-wand-magic-sparkles fa-lg"></i>Programmng </a>
+                <h3>GROUPs</h3>
+                <a href="#"><i class="fa-solid fa-user-group fa-lg"></i>Web Design Group </a>
+                <a href="#"><i class="fa-solid fa-user-group fa-lg"></i>Java Stack Developer</a>
+                <a href="#"><i class="fa-solid fa-user-group fa-lg"></i>Core java learning </a>
+                <a href="#"><i class="fa-solid fa-user-group fa-lg"></i>Cyber Security</a>
+                <a href="#"><i class="fa-solid fa-user-group fa-lg"></i>Python and javaScript Group </a>
+                <a href="#"><i class="fa-solid fa-user-group fa-lg"></i>Lean coding Online</a>
+                <h3>HASHING</h3>
+                <a href="#"><i class="fa-solid fa-hashtag fa-lg"></i>Web Development </a>
+                <a href="#"><i class="fa-solid fa-hashtag fa-lg"></i>Learn linux </a>
+                <a href="#"><i class="fa-solid fa-hashtag fa-lg"></i>Learn Hacking</a>
+
+                <div class="discover-more-link">
+                    <a href="#">Discover more</a>
+                </div>
+
+
+            </div>
+            <p id="showMoreLink" onclick="toggleActivity()">Show More <b>+</b></p>
+
+        </div>
+
+        <!-- ---------------------------------main content sidebar---------------------------------- -->
+        <div class="main-content">
+
+
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="image/images (4).jpg" alt="">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><i class="fa-solid fa-newspaper fa-xl"></i> Events</li>
+
+                    <li><i class="fa-solid fa-video fa-lg"></i>Videos</li>
+                    <li><i class="fa-solid fa-image fa-lg"></i>Photos</li>
+                    <li>Post</li>
+
+                </div>
+            </div>
+
+
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>Top <i class="fa-solid fa-chevron-down fa-xl"></i><span></p>
+            </div>
+
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/download.jpg" alt="">
+                    <div>
+                        <h1>Benjamin leo</h1>
+                        <small>Founder and Ceo at Gellelio Group | Angel Investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam doloremque praesentium fugiat eius
+                    sequi, quas veniam. Aperiam delectus explicabo, ullam a qui eaque amet voluptatem libero, recusandae
+                    necessitatibus eum, possimus dolorum in eius corporis! Esse alias architecto recusandae ad sit.</p>
+                <img src="image/Graphics.jpg" style="width: 100%;">
+
+
+
+                <div class="post-stats">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up fa-lg" style="color: rgb(57, 184, 235);"></i>
+                        <i class="fa-solid fa-heart fa-lg" style="color: rgb(226, 25, 25);"></i>
+                        <i class="fa-solid fa-comment fa-lg" style="color:rgb(16, 118, 202)"></i>
+                        <span class="liked-users">Abhinav mishra and 75 others</span>
+                    </div>
+                    <div>
+                        <span>20 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/images (4).jpg" class="post-activity-user-icon" alt="">
+                        <i class="fa-solid fa-chevron-down fa-lg"></i>
+
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-thumbs-up fa-lg"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-comment fa-xl"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-share fa-lg"></i>
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-paper-plane fa-lg"></i>
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/images (1).jpg" alt="">
+                    <div>
+                        <h1>Nimesh Thakur</h1>
+                        <small>Founder and Ceo at Discovery Group | Angel Investor</small>
+                        <small>9 hours ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quos eum voluptates porro placeat,
+                    asperiores nulla atque id eaque voluptatum animi explicabo, impedit tempore! Omnis, in tenetur!
+                    Minus recusandae earum facere possimus esse optio modi neque quae ducimus laborum! Adipisci beatae
+                    culpa et reiciendis animi? Cupiditate illum hic quae quod labore temporibus facere soluta rerum,
+                    pariatur repellat provident placeat officiis quibusdam laudantium adipisci amet mollitia praesentium
+                    ratione! Doloremque in molestiae ipsa repellendus blanditiis, sit labore tempore consectetur sequi
+                    maiores dignissimos odit laudantium. Alias dolorem neque similique ea enim, libero inventore
+                    possimus ex praesentium consequatur architecto magnam nesciunt quae. Accusamus, debitis
+                    ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam doloremque praesentium fugiat
+                    eius
+                    sequi, quas veniam. Aperiam delectus explicabo, ullam a qui eaque amet voluptatem libero, recusandae
+                    necessitatibus eum, possimus dolorum in eius corporis! Esse alias architecto recusandae ad sit.</p>
+                <img src="image/facebook_imge_2.jpg" style="width: 100%;">
+
+
+
+                <div class="post-stats">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up fa-lg" style="color: rgb(57, 184, 235);"></i>
+                        <i class="fa-solid fa-heart fa-lg" style="color: rgb(226, 25, 25);"></i>
+                        <i class="fa-solid fa-comment fa-lg" style="color:rgb(16, 118, 202)"></i>
+                        <span class="liked-users">anuj thakur and 75 others</span>
+                    </div>
+                    <div>
+                        <span>203 comments &middot; 400 shares</span>
+                    </div>
+                </div>
+
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/images (4).jpg" class="post-activity-user-icon" alt="">
+                        <i class="fa-solid fa-chevron-down fa-lg"></i>
+
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-thumbs-up fa-lg"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-comment fa-xl"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-share fa-lg"></i>
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-paper-plane fa-lg"></i>
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/images (5).jpg" alt="">
+                    <div>
+                        <h1>abhinav leo</h1>
+                        <small>Ceo at Canvas Group | Angel one Investor</small>
+                        <small>1 hours ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam doloremque praesentium fugiat eius
+                    sequi, quas veniam. Aperiam delectus explicabo, ullam a qui eaque amet voluptatem libero, recusandae
+                    necessitatibus eum, possimus dolorum in eius corporis! Esse alias architecto recusandae ad sit.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis libero sapiente error ducimus
+                    ipsa labore exercitationem culpa maxime assumenda fugiat tempore doloribus, iusto porro ut obcaecati
+                    sed quod. Ipsa ratione id quos, voluptatem accusamus soluta repellat iure magnam quia!</p>
+                <img src="image/facebook_imge_3.jpg" style="width: 100%;">
+
+
+
+                <div class="post-stats">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up fa-lg" style="color: rgb(57, 184, 235);"></i>
+                        <i class="fa-solid fa-heart fa-lg" style="color: rgb(226, 25, 25);"></i>
+                        <i class="fa-solid fa-comment fa-lg" style="color:rgb(16, 118, 202)"></i>
+                        <span class="liked-users">Nimesh mishra and 715 others</span>
+                    </div>
+                    <div>
+                        <span>200 comments &middot; 401 shares</span>
+                    </div>
+                </div>
+
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/images (4).jpg" class="post-activity-user-icon" alt="">
+                        <i class="fa-solid fa-chevron-down fa-lg"></i>
+
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-thumbs-up fa-lg"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-comment fa-xl"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-share fa-lg"></i>
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-paper-plane fa-lg"></i>
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/images.jpg" alt="">
+                    <div>
+                        <h1>abhinav leo</h1>
+                        <small>Ceo at Canvas Group | Angel one Investor</small>
+                        <small>1 hours ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam doloremque praesentium fugiat eius
+                    sequi, quas veniam. Aperiam delectus explicabo, ullam a qui eaque amet voluptatem libero, recusandae
+                    necessitatibus eum, possimus dolorum in eius corporis! Esse alias architecto recusandae ad sit.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis libero sapiente error ducimus
+                    ipsa labore exercitationem culpa maxime assumenda fugiat tempore doloribus, iusto porro ut obcaecati
+                    sed quod. Ipsa ratione id quos, voluptatem accusamus soluta repellat iure magnam quia!</p>
+                <img src="image/facebook_imge_5.jpg" style="width: 100%;">
+
+
+
+                <div class="post-stats">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up fa-lg" style="color: rgb(57, 184, 235);"></i>
+                        <i class="fa-solid fa-heart fa-lg" style="color: rgb(226, 25, 25);"></i>
+                        <i class="fa-solid fa-comment fa-lg" style="color:rgb(16, 118, 202)"></i>
+                        <span class="liked-users">Nimesh mishra and 715 others</span>
+                    </div>
+                    <div>
+                        <span>200 comments &middot; 401 shares</span>
+                    </div>
+                </div>
+
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/images (4).jpg" class="post-activity-user-icon" alt="">
+                        <i class="fa-solid fa-chevron-down fa-lg"></i>
+
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-thumbs-up fa-lg"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-comment fa-xl"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-share fa-lg"></i>
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-paper-plane fa-lg"></i>
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="image/images (5).jpg" alt="">
+                    <div>
+                        <h1>abhinav leo</h1>
+                        <small>Ceo at Canvas Group | Angel one Investor</small>
+                        <small>1 hours ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam doloremque praesentium fugiat eius
+                    sequi, quas veniam. Aperiam delectus explicabo, ullam a qui eaque amet voluptatem libero, recusandae
+                    necessitatibus eum, possimus dolorum in eius corporis! Esse alias architecto recusandae ad sit.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis libero sapiente error ducimus
+                    ipsa labore exercitationem culpa maxime assumenda fugiat tempore doloribus, iusto porro ut obcaecati
+                    sed quod. Ipsa ratione id quos, voluptatem accusamus soluta repellat iure magnam quia!</p>
+                <img src="image/facebook_imge_4.jpg" style="width: 100%;">
+
+
+
+                <div class="post-stats">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up fa-lg" style="color: rgb(57, 184, 235);"></i>
+                        <i class="fa-solid fa-heart fa-lg" style="color: rgb(226, 25, 25);"></i>
+                        <i class="fa-solid fa-comment fa-lg" style="color:rgb(16, 118, 202)"></i>
+                        <span class="liked-users">Nimesh mishra and 715 others</span>
+                    </div>
+                    <div>
+                        <span>200 comments &middot; 401 shares</span>
+                    </div>
+                </div>
+
+
+                <div class="post-activity">
+                    <div>
+                        <img src="image/images (4).jpg" class="post-activity-user-icon" alt="">
+                        <i class="fa-solid fa-chevron-down fa-lg"></i>
+
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-thumbs-up fa-lg"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-comment fa-xl"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-solid fa-share fa-lg"></i>
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <i class="fa-regular fa-paper-plane fa-lg"></i>
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- ---------------------------------right sidebar---------------------------------- -->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <i class="fa-solid fa-circle-exclamation fa-xl" class="info-icon"></i>
+                <h3>Trending News</h3>
+
+                <a href="#">High demand for skilled manpower</a>
+                <span>Id ago &middot; 170,934 readers</span>
+
+                <a href="#">Careers growing horizontally too</a>
+                <span>Id ago &middot; 110,934 readers</span>
+
+                <a href="#">Less work visa for Us,more for Uk</a>
+                <span>Id ago &middot; 101,934 readers</span>
+
+                <a href="#">Gautam Adani is the world's third richest</a>
+                <span>Id ago &middot; 10,934 readers</span>
+
+                <a href="#" class="read-more-link">Read more</a>
+            </div>
+
+
+            <div class="sidebar-ad">
+                <small>Ad...</small>
+                <p>Master the 5 principle of web design</p>
+                <div>
+                    <img src="image/images (3).jpg" alt="">
+                    <img src="image/xiamo.png" alt="">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+
+                <div class="copyright-msg">
+                    <img src="image/logo.png" alt="">
+                    <p>Linkedup &#169; 2022, All right reserved</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/5b7fcdcdcd.js" crossorigin="anonymous"></script>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+
+
+        let sideActivity = document.getElementById("sideBarActivity");
+        let moreLink = document.getElementById("showMoreLink");
+        function toggleActivity(){
+            sideActivity.classList.toggle("open-activity")
+            if(sideActivity.classList.contains("open-activity")){
+                moreLink.innerHTML = "Show less <b>-</b>"
+            }else{
+                moreLink.innerHTML = "Show more <b>+</b>"
+            }
+        }
+
+    </script>
+</body>
+
+</html>
